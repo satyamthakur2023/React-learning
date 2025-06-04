@@ -74,6 +74,47 @@ npm start
 
 ---
 
+Here’s a **recommended folder structure** layout for your React portfolio project — clean, scalable, and aligned with best practices:
+
+portfolio-react-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── project1.jpg
+│   │   │   ├── project2.jpg
+│   │   │   └── ...
+│   │   └── videos/
+│   │       └── demo.mp4
+│   │
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Hero.js
+│   │   ├── About.js
+│   │   ├── Skills.js
+│   │   ├── Contact.js
+│   │   ├── Footer.js
+│   │   ├── Card.js
+│   │   ├── Testimonials.js
+│   │   └── Blog.js
+│   │
+│   ├── styles/
+│   │   ├── App.css
+│   │   └── Projects.css
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── reportWebVitals.js
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── package-lock.json
+```
+
 ## Next Steps
 
 * Dive deeper into React Router for client-side routing.
