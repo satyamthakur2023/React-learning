@@ -1,0 +1,26 @@
+/* Reset some default styles */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+main {
+  margin-top: 60px; /* to prevent navbar overlap */
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+/* Navbar styles will be inline in component, but you can add this if you want */
+nav {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

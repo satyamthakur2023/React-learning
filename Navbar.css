@@ -1,0 +1,29 @@
+/* Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #282c34;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-ul li:hover {
+  color: #61dafb;
+}
+.navbar-ul li.active {
+  color: #61dafb;
+  font-weight: bold;
+}
